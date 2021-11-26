@@ -4,11 +4,12 @@ body{
     background-size: 100%;
 }
 .navbar{
-    background-color:rgb(40, 131, 211);
-    background-color: transparent;
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5));
+    background-color:transparent;
     padding: 5px 10px 0px 5px; /* top/right/bottom/left */
-    color: rgb(6, 34, 43);
+    color: rgb(132, 180, 196);
     display: flex;
+    border-radius: 15px;
 }
 .navbar h1{
     margin-left: 10px;
@@ -23,10 +24,29 @@ body{
 .nav-item{
     background-color:transparent;
     border: solid 2px rgb(152, 161, 19);
-    color: rgb(6, 34, 43);
+    color: rgb(26, 151, 192);
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 18px;
+}
+.content-container{
+    background-color:rgba(6, 34, 43, 0.8);
+    border-radius: 15px;
+}
+.content{
+    border: solid 2px white;
+    padding: 10px 10px 10px 10px;
+}
+.content img{
+    width:250px;
+    height:250px;
+    border-radius: 5px;
+}
+.content p{
+    position: relative;
+    left: 300px;
+    bottom: 200px;
+    color: white;
 }
