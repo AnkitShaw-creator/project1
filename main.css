@@ -1,0 +1,32 @@
+body{
+    background-image:url(backgroundImg-1.jpg);
+    background-repeat:no-repeat;
+    background-size: 100%;
+}
+.navbar{
+    background-color:rgb(40, 131, 211);
+    background-color: transparent;
+    padding: 5px 10px 0px 5px; /* top/right/bottom/left */
+    color: rgb(6, 34, 43);
+    display: flex;
+}
+.navbar h1{
+    
+}
+.navbar img{
+    background-color: transparent;
+}
+.navigation{
+    position: relative;
+    left: 750px;
+}
+.nav-item{
+    background-color:transparent;
+    border: solid 2px rgb(152, 161, 19);
+    color: rgb(6, 34, 43);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+}
