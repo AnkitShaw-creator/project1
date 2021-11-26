@@ -34,10 +34,11 @@ body{
 .content-container{
     background-color:rgba(6, 34, 43, 0.8);
     border-radius: 15px;
+    border: solid 2px white;
 }
 .content{
-    border: solid 2px white;
     padding: 10px 10px 10px 10px;
+    display: inline-flex;
 }
 .content img{
     width:250px;
@@ -45,8 +46,6 @@ body{
     border-radius: 5px;
 }
 .content p{
-    position: relative;
-    left: 300px;
-    bottom: 200px;
-    color: white;
+    padding-left: 50px;
+    color: aquamarine;
 }
