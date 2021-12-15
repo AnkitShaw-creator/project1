@@ -3,6 +3,8 @@
     background-image:url(backgroundImg-1.jpg);
     background-repeat:no-repeat;
     background-size: 100%;
+    background-color: rgb(32, 23, 23);
+
 }
 .navbar{
     position: inherit;
@@ -15,7 +17,7 @@
     
 }
 .navbar h1{
-    left:200px;
+    left:20px;
     margin-left: 10px;
     font-size: 32px;
     font-family: 'Indie Flower', cursive;
@@ -37,7 +39,12 @@
     text-decoration: none;
     display: inline-block;
     font-size: 18px;
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Indie Flower', cursive;  
+}
+.nav-item:hover{
+    background-color: black;
+    color: blanchedalmond;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 .content-container{
     margin-top: 30px;
@@ -76,4 +83,16 @@
 .content-item:nth-child(even) div.content-info{
     float: left;
     
+}
+.footer{
+    padding: 150px 20px 20px 10px;
+    background-color: #8d565602;
+    color: whitesmoke;
+    display:inline-flex;
+} 
+.col-item{
+    padding-left: 50px;
+    padding-right:120px;
+    display:flexbox;
+    border-bottom: 2px solid white;
 }

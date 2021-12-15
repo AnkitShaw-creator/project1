@@ -1,0 +1,21 @@
+.navbar{
+    position: inherit;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.438), rgba(9, 36, 66, 1));
+    background-color:transparent;
+    padding: 5px 10px 0px 5px; /* top/right/bottom/left */
+    color: rgb(150, 210, 230);
+    display: flex;
+    border-radius: 15px;   
+}
+.navbar h1{
+    left:20px;
+    margin-left: 10px;
+    font-size: 32px;
+    font-family: 'Indie Flower', cursive;
+}
+.navbar img{
+    background-color:transparent ;
+}
+.table-container{
+    
+}

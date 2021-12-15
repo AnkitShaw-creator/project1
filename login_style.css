@@ -1,15 +1,52 @@
 body{
-    background: linear-gradient(to right,rgba(37, 88, 92), rgba(219, 16, 16, 0.377));
-    align-content: center;
+    background: linear-gradient(to left,rgba(37, 88, 92, 0.89), rgb(181, 228, 230));
+    background-size: 100%;
+}
+.navbar{
+    position: inherit;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.438), rgba(9, 36, 66, 1));
+    background-color:transparent;
+    padding: 5px 10px 0px 5px; /* top/right/bottom/left */
+    color: rgb(150, 210, 230);
+    display: flex;
+    border-radius: 15px;
+}
+.navbar h1{
+    left:20px;
+    margin-left: 10px;
+    font-size: 32px;
+    font-family: 'Indie Flower', cursive;
+}
+.navbar img{
+    background-color:transparent ;
+}
+.nav-item{
+    position: absolute;
+    top: 25px;
+    right: 90px;
+    background-color:transparent;
+    border: solid 2px rgb(152, 161, 19);
+    color: rgb(140, 215, 240);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    font-family: 'Indie Flower', cursive;  
+}
+.nav-item:hover{
+    background-color: black;
+    color: blanchedalmond;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 .login-container{
     position: relative;
-    margin-top: 100px;
+    margin-top: 40px;
     margin-left: 40%;
     position: relative;
     background: linear-gradient(to right,rgba(5, 107, 114), rgba(70, 87, 88, 0.699));
     width:max-content;
-    border: 2px solid red;
+    border: 3px solid red;
     border-radius: 14px;
     padding: 30px 40px 30px 40px;
     align-content: center;
@@ -17,7 +54,7 @@ body{
 .login-header{
     font-family: 'Indie Flower', cursive;
     display: inline-flex;
-    border-bottom: 2px solid rgb(31, 71, 5);
+    border-bottom: 2px solid rgb(215, 226, 208);
     color: rgb(25, 46, 107);
 }
 .login-header img{
@@ -44,4 +81,12 @@ body{
 .login-form input:focus{
     border: 2px solid rgb(82, 0, 153);
     background: linen;
+}
+.login-form input[type='submit']:hover{
+    background-color: black;
+    color: blanchedalmond;
+}
+.links{
+    position:relative;
+    margin-left: 45%;
 }
